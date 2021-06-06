@@ -3,5 +3,5 @@
 
 start on 06.01    
 
-### 0606 : Relative Layout & Linear Layout & Table Layout    
+### 0606 : Relative Layout & Linear Layout & Table Layout & Prame Layout    
 📷 resources : t0606.xml   
