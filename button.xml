@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="선택"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:id="@+id/radioGroup01">
+
+        <RadioButton
+            android:id="@+id/radio01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:Size="24sp"
+            android:text="남성"
+            android:textColor="ff55aaff"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radio02"
+            android:text="여성"
+            android:textStyle="bold"
+            android:textColor="ff55aaff"
+            android:Size="24sp"
+            />
+
+
+    </RadioGroup>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal|center_vertical"
+        android:paddingTop="20dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="온종일"
+            android:textSize="24sp"
+            android:paddingRight="10dp"
+            android:textColor="#ff55aaff"/>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/allDay"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="조금만"
+            android:textSize="24sp"
+            android:paddingRight="10dp"
+            android:textColor="#ff55aaff"/>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/littlebit"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="전혀"
+            android:textSize="24sp"
+            android:paddingRight="10dp"
+            android:textColor="#ff55aaff"/>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/none"
+            />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
